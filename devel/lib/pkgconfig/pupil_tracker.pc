@@ -1,0 +1,8 @@
+prefix=/home/rics/workspace/devel
+
+Name: pupil_tracker
+Description: Description of pupil_tracker
+Version: 0.0.0
+Cflags: -I/home/rics/workspace/devel/include
+Libs: -L/home/rics/workspace/devel/lib -lpupil_tracker
+Requires: rospy std_msgs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/rics/workspace/install
+
+Name: motor_control
+Description: Description of motor_control
+Version: 0.0.0
+Cflags: -I/home/rics/workspace/install/include
+Libs: -L/home/rics/workspace/install/lib 
+Requires: roscpp std_msgs message_runtime
